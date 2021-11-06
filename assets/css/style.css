@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    background-color: #252424;
+    color: #fff;
+}
+
+/* Header */
+header{
+    background-color: red;
+    
+}
+
+#pgm-logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+
+#main-menu li {
+    float: right;
+    margin: 30px 50px 10px;
+    list-style-type: none;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#main-menu li:hover {
+    background-color: #2E4AF9;
+    border-bottom: 3px solid #E94033;
+    color: #FFEB3B;
+}
+
+.current {
+    background-color: darkgrey;
+    border-bottom: 3px solid darkgrey;
+}
+
+.hero-container {
+    clear: both;
+}
+
+.friends {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 10px;
+    margin: 0 10px;
+    width: fit-content;
+    text-align: right;
+    font-size: 35px;
+    font-family: Oswald, sans-serif;
+    
+}
+
+.friends a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.top-left {
+    transform: rotate(20deg);
+    width: fit-content;
+
+}
+
